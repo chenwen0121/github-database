@@ -1,0 +1,47 @@
+/* 輪播器 */
+/* .slide{
+    width: 100%;
+    height: 500px;
+    position: relative;  
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#slide_ul{
+    width: 500%;
+    display: flex; 
+    position: relative;  
+}
+#slide_ul>li{
+    width: 20%;
+    height: 500px;
+}
+#slide_ul>li>img{
+    width: 100%;
+} */
+.slide {
+    position: relative;
+    width: 100%; /* 调整为图片宽度 */
+    overflow: hidden;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+#slide_ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    left: 0;
+    transition: left 1s ease; /* 使动画更平滑 */
+}
+
+#slide_ul li {
+    min-width: 100%; /* 每张图片占据整个容器 */
+}
+
+#slide_ul img {
+    width: 100%;
+    display: block;
+}

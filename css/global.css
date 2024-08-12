@@ -1,0 +1,28 @@
+/* 全域 */
+.color_red{
+    color: red;
+}
+.color_blue{
+    color:blue;
+}
+.button_1{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 0px;
+}
+.button_1>a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding-top: 14px;
+}
+
+
